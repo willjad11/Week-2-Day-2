@@ -1,0 +1,41 @@
+.user {
+    margin: 30px 60px 30px 60px;
+    border: 5px solid black;
+    width: 600px;
+}
+
+.user-title {
+    display: flex;
+    align-items: center;
+}
+
+.top-half {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+.likes > * {
+    padding: 10px;
+}
+
+#like-text {
+    font-size: 1.1em;
+}
+
+.description {
+    display: flex;
+    margin-left: 15px;
+}
+
+#like {
+    border: 3px solid black;
+    font-size: 1.1em;
+    background-color: yellow;
+    margin-left: 15px;
+    box-shadow: 2px 2px 2px black;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+.user1, .user2, .user3 {
+    margin: 15px 60px 15px 60px;
+    border: 5px solid black;
+    width: 600px;
+}
+
+.user-title {
+    display: flex;
+    align-items: center;
+}
+
+.top-half {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+.likes > * {
+    padding: 10px;
+}
+
+#like-text {
+    font-size: 1.1em;
+}
+
+.description {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#like {
+    border: 3px solid black;
+    font-size: 1.1em;
+    background-color: yellow;
+    margin-left: 15px;
+    box-shadow: 2px 2px 2px black;
+    padding: 3px 10px 3px 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    margin: 0px 100px 15px 100px;
+    height: 100px;
+}
+
+.nav-bar h1 {
+    color: white;
+    padding-left: 40px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 60px 15px 60px;
+    border: 5px solid black;
+}
+
+.profile > * {
+    padding: 10px;
+}
