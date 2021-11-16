@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            <div class="nav-title">Profile</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#" class="active">My Profile</a>
+                <a href="#">Find Connections</a>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn">Sign Out</button>
+        </div>
+    </div>
+    <div class="bodycont">
+        <div class="left">
+            <div class="profile">
+                <div class="bio">
+                    <div class="picture">
+                        <img src="images/adrien-s.jpg" alt="images/adrien-s.jpg" class="profpic">
+                    </div>
+                    <div class="name">
+                        <h1 id = "profilename">Adrien S.</h1>
+                    </div>
+                    <div class="location">
+                        <img src="icons/map-marker.png" alt="icons/map-marker.png" class="map-marker">
+                        <h2>Seattle</h2>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Developer | Engineer | Problem Solver
+                            Master of shadows and the Internet!
+                        </p>
+                    </div>
+                    <div class="editprofile">
+                        <img src="icons/gear.png" alt="icons/gear.png" class="gear"> <a href="#" onclick="editProfile()">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <div class="edu">
+                    <div class="cont-title">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="edu-cont-content">
+                        <div class="job-title">
+                            <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        </div>
+                        <div class="job-dates">
+                            <h4>Nov 2021 - Mar 2022</h4>
+                        </div>
+                        <div class="job-desc">
+                            <p>
+                                Triple black belt in Python, MERN, and C#...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="connection-requests">
+                <div class="conreq">
+                    <div class="con-title">
+                        <div class="con-amount"><h2><span id="conrequests">2</span></h2></div>
+                        <h2>Connection Requests</h2>
+                    </div>
+                    <div class="con1">
+                        <div class="namepic">
+                            <img src="images/alayne-s.jpg" alt="images/alayne-s.jpg">
+                            <h3>Alayne, S</h3>
+                        </div>
+                        <div class="accept-close">
+                            <img src="icons/accept-circle.png" onclick="removeUser1()">
+                            <img src="icons/close-circle.png" onclick="removeUser1()">
+                        </div>
+                    </div>
+                    <div class="con2">
+                        <div class="namepic">
+                            <img src="images/anne-s.jpg" alt="images/anne-s.jpg">
+                            <h3>Anne, S</h3>
+                        </div>
+                        <div class="accept-close">
+                            <img src="icons/accept-circle.png" onclick="removeUser2()">
+                            <img src="icons/close-circle.png" onclick="removeUser2()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="cons">
+                    <div class="con-title">
+                        <div class="con-amount">
+                            <h2><span id="concount">500</span></h2>
+                        </div>
+                        <h2>Your Connections</h2>
+                    </div>
+                    <div class="yourcon">
+                        <div class="namepic">
+                            <img src="images/arry-s.jpg" alt="images/arry-s.jpg">
+                            <h3>Arry, S</h3>
+                        </div>
+                    </div>
+                    <div class="yourcon">
+                        <div class="namepic">
+                            <img src="images/jane-m.jpg" alt="images/jane-m.jpg">
+                            <h3>Jane, M</h3>
+                        </div>
+                    </div>
+                    <div class="yourcon">
+                        <div class="namepic">
+                            <img src="images/phil-s.jpg" alt="images/phil-s.jpg">
+                            <h3>Phil, S</h3>
+                        </div>
+                    </div>
+                    <div class="yourcon">
+                        <div class="namepic">
+                            <img src="images/todd-s.jpg" alt="images/todd-s.jpg">
+                            <h3>Todd, S</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewmorecons">
+                    <div class="namepic">
+                        <h3><a href="#">View More</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

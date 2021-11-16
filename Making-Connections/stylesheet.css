@@ -1,0 +1,239 @@
+/* APPLY TO EVERYTHING */
+* {
+    font-family: "Roboto";
+    margin: 0px;
+}
+/* APPLY TO EVERYTHING */
+
+/* NAVBAR */
+.active {
+    font-weight: bold;
+}
+
+.nav {
+    vertical-align: top;
+    height: 30px;
+    background-color: black;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-title {
+    font-size: 40px;
+    margin-right: 20px;
+    color: white;
+}
+
+.btn {
+    border: 3px solid black;
+    font-size: 1.1em;
+    background-color: lightseagreen;
+    padding: 2px 8px 2px 8px;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 5px;
+    color: white;
+}
+/* NAVBAR */
+
+
+/* BODY */
+.bodycont {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.left, .right {
+    flex: 2;
+    margin: 20px;
+    padding: 20px;
+}
+
+.right {
+    flex: 1;
+}
+
+.con-title {
+    margin-bottom: 20px;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.con-title h2 {
+    color: white;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.con-amount h2{
+    border-top: 6px;
+    border-bottom: 6px;
+    border-left: 12px;
+    border-right: 12px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    float: left;
+}
+
+.profile, .education, .connection-requests, .connections {
+    position: relative;
+    border: 5px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-right-color: lightseagreen;
+    border-left-color: lightseagreen;
+    border-bottom-color: gray;
+    border-top: 100px solid lightseagreen;
+    border-radius: 25px;
+    background-color: wheat;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.education, .connection-requests, .connections {
+    border-right-color: darkslategray;
+    border-left-color: darkslategray;
+    border-bottom-color: gray;
+    border-top: 50px solid darkslategray;
+}
+
+.edu, .conreq, .cons, .bio {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -40px;
+}
+
+.bio{
+    margin-top: -80px;
+}
+
+.edu-cont-content div {
+    padding-bottom: 10px;
+}
+
+.job-desc {
+    margin-bottom: 10px;
+}
+
+.job-dates {
+    color: gray;
+}
+
+.name {
+    margin: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.editprofile {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profpic {
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: wheat;
+}
+
+.map-marker {
+    width: 12px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.gear {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.cont-title {
+    color: white;
+    padding-bottom: 35px;
+}
+
+.namepic {
+    display: flex;
+    align-items: center;
+}
+
+.yourcon {
+    padding-bottom: 20px;
+}
+
+.namepic img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: darkslategray;
+}
+
+.accept-close {
+    display: flex;
+    align-items: center;
+}
+
+.accept-close img {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+.con1, .con2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.viewmorecons {
+    border-top: solid 5px;
+    border-color: darkslategray;
+    padding: 20px 0px 20px 50px;
+}
+/* BODY */
